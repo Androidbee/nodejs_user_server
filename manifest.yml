@@ -1,0 +1,9 @@
+--- 
+applications: 
+- url: subscribe-users.${target-base}
+  instances: 1
+  runtime: node08
+  memory: 64M
+  path: .
+  name: subscribe-users
+  framework: node
